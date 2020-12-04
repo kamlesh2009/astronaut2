@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border box;
+}
+body{
+    font-family: "Exo 2", sans-serif;
+background-image:url( https://i1.faceprep.in/ProGrad/sky-moon-bg.png
+) ;
+background-size: 100% 100% ;
+width: 100vw;
+height: 100vw;
+}
+#astronaut1{
+    position:absolute;
+    height: 500px;
+    top: 5%;
+    left: 5%;
+    animation: floating 2s ease-in-out;
+}
+#astronaut2{
+    position: absolute;
+    height: 425px;
+    top: 30%;
+    left: 30%;
+
+}
+form{
+background-color:white;
+position:absolute;
+top:15%;
+left:65%;
+width:650px;
+padding:0px 75px;
+border-radius: 5px;
+}
+
+.block-display{
+    display:block;
+
+}
+label{
+    font-size: 16px;
+    margin: 20px 0px 4px 0px
+}
+select,input[type="number"], 
+input[type="text"] {
+
+    width: 30px;
+    height: 40px;
+    border: 1px solid grey;
+    padding: 0px 5px;}
+
+    .rent-label{
+        margin-right: 20px;
+    }
+#button {
+    display: block;
+    background-color: #ec7920;
+    color: white;
+    padding: 15px 15px 20px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 40px 40px auto;
+}
+h1{
+    text-align: center;
+    margin:20px 20px auto;
+    font-size: 1.6em;
+    width: 280px;
+}
+@keyframes floating{
+    0%{
+        transform: translatey(0px);}
+        50%{
+            transform:translatey(30px) ;
+        }
+        100%{transform: translatey(0px);
+} 
